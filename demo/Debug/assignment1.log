@@ -1,0 +1,30 @@
+﻿Build started 12/12/2016 1:57:04 PM.
+     1>Project "C:\Users\lokeshramdin\Desktop\WIU\WIU-Fall 2016\CG Submission\CG Project\RamdinLokeshFinalproject_Connectfour\RamdinLokesh_connectfour\demo\assignment1.vcxproj" on node 2 (Build target(s)).
+       Project file contains ToolsVersion="12.0". This toolset may be unknown or missing, in which case you may be able to resolve this by installing the appropriate version of MSBuild, or the build may have been forced to a particular ToolsVersion for policy reasons. Treating the project as if it had ToolsVersion="4.0". For more information, please see http://go.microsoft.com/fwlink/?LinkId=291333.
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _MBCS /Gm /EHsc /RTC1 /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt demo.cpp
+         demo.cpp
+     1>c:\users\lokeshramdin\desktop\wiu\wiu-fall 2016\cg submission\cg project\ramdinlokeshfinalproject_connectfour\ramdinlokesh_connectfour\demo\demo.cpp(151): warning C4244: 'argument' : conversion from 'double' to 'GLfloat', possible loss of data
+     1>c:\users\lokeshramdin\desktop\wiu\wiu-fall 2016\cg submission\cg project\ramdinlokeshfinalproject_connectfour\ramdinlokesh_connectfour\demo\demo.cpp(155): warning C4244: 'argument' : conversion from 'double' to 'GLfloat', possible loss of data
+     1>c:\users\lokeshramdin\desktop\wiu\wiu-fall 2016\cg submission\cg project\ramdinlokeshfinalproject_connectfour\ramdinlokesh_connectfour\demo\demo.cpp(166): warning C4244: 'argument' : conversion from 'float' to 'GLint', possible loss of data
+     1>c:\users\lokeshramdin\desktop\wiu\wiu-fall 2016\cg submission\cg project\ramdinlokeshfinalproject_connectfour\ramdinlokesh_connectfour\demo\demo.cpp(166): warning C4244: 'argument' : conversion from 'double' to 'GLint', possible loss of data
+     1>c:\users\lokeshramdin\desktop\wiu\wiu-fall 2016\cg submission\cg project\ramdinlokeshfinalproject_connectfour\ramdinlokesh_connectfour\demo\demo.cpp(167): warning C4244: 'argument' : conversion from 'double' to 'GLint', possible loss of data
+     1>c:\users\lokeshramdin\desktop\wiu\wiu-fall 2016\cg submission\cg project\ramdinlokeshfinalproject_connectfour\ramdinlokesh_connectfour\demo\demo.cpp(167): warning C4244: 'argument' : conversion from 'float' to 'GLint', possible loss of data
+     1>c:\users\lokeshramdin\desktop\wiu\wiu-fall 2016\cg submission\cg project\ramdinlokeshfinalproject_connectfour\ramdinlokesh_connectfour\demo\demo.cpp(168): warning C4244: 'argument' : conversion from 'float' to 'GLint', possible loss of data
+     1>c:\users\lokeshramdin\desktop\wiu\wiu-fall 2016\cg submission\cg project\ramdinlokeshfinalproject_connectfour\ramdinlokesh_connectfour\demo\demo.cpp(168): warning C4244: 'argument' : conversion from 'double' to 'GLint', possible loss of data
+     1>c:\users\lokeshramdin\desktop\wiu\wiu-fall 2016\cg submission\cg project\ramdinlokeshfinalproject_connectfour\ramdinlokesh_connectfour\demo\demo.cpp(169): warning C4244: 'argument' : conversion from 'double' to 'GLint', possible loss of data
+     1>c:\users\lokeshramdin\desktop\wiu\wiu-fall 2016\cg submission\cg project\ramdinlokeshfinalproject_connectfour\ramdinlokesh_connectfour\demo\demo.cpp(193): warning C4244: 'argument' : conversion from 'float' to 'GLint', possible loss of data
+     1>c:\users\lokeshramdin\desktop\wiu\wiu-fall 2016\cg submission\cg project\ramdinlokeshfinalproject_connectfour\ramdinlokesh_connectfour\demo\demo.cpp(193): warning C4244: 'argument' : conversion from 'double' to 'GLint', possible loss of data
+     1>c:\users\lokeshramdin\desktop\wiu\wiu-fall 2016\cg submission\cg project\ramdinlokeshfinalproject_connectfour\ramdinlokesh_connectfour\demo\demo.cpp(194): warning C4244: 'argument' : conversion from 'float' to 'GLint', possible loss of data
+     1>c:\users\lokeshramdin\desktop\wiu\wiu-fall 2016\cg submission\cg project\ramdinlokeshfinalproject_connectfour\ramdinlokesh_connectfour\demo\demo.cpp(195): warning C4244: 'argument' : conversion from 'float' to 'GLint', possible loss of data
+     1>c:\users\lokeshramdin\desktop\wiu\wiu-fall 2016\cg submission\cg project\ramdinlokeshfinalproject_connectfour\ramdinlokesh_connectfour\demo\demo.cpp(229): warning C4244: '+=' : conversion from 'double' to 'int', possible loss of data
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\lokeshramdin\Desktop\WIU\WIU-Fall 2016\CG Submission\CG Project\RamdinLokeshFinalproject_Connectfour\RamdinLokesh_connectfour\Debug\demo.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /NODEFAULTLIB:libc.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\lokeshramdin\Desktop\WIU\WIU-Fall 2016\CG Submission\CG Project\RamdinLokeshFinalproject_Connectfour\RamdinLokesh_connectfour\Debug\demo.pdb" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\lokeshramdin\Desktop\WIU\WIU-Fall 2016\CG Submission\CG Project\RamdinLokeshFinalproject_Connectfour\RamdinLokesh_connectfour\Debug\demo.lib" /MACHINE:X86 Debug\math3d.obj
+         Debug\demo.obj
+     1>math3d.obj : warning LNK4075: ignoring '/EDITANDCONTINUE' due to '/OPT:ICF' specification
+         assignment1.vcxproj -> C:\Users\lokeshramdin\Desktop\WIU\WIU-Fall 2016\CG Submission\CG Project\RamdinLokeshFinalproject_Connectfour\RamdinLokesh_connectfour\Debug\demo.exe
+     1>Done Building Project "C:\Users\lokeshramdin\Desktop\WIU\WIU-Fall 2016\CG Submission\CG Project\RamdinLokeshFinalproject_Connectfour\RamdinLokesh_connectfour\demo\assignment1.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:03.48
